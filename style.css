@@ -1,48 +1,89 @@
 body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        .container {
-            width: 50%;
-            margin: auto;
-        }
-        h2 {
-            background: black;
-            color: white;
-            padding: 10px;
-        }
-        textarea {
-            width: 100%;
-            height: 100px;
-            background: lightblue;
-            border: 1px solid #ccc;
-            padding: 10px;
-        }
-        input {
-            width: 100%;
-            padding: 8px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-        }
-        .submit-btn {
-            background: gold;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
-        }
-        .footer {
-            background: black;
-            color: white;
-            padding: 10px;
-            margin-top: 20px;
-        }
-
-li {
-	display: inline;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
 }
 
-.navbar a {
-	color: black;
+nav {
+    background: #0073e6;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.ticket-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d9534f;
+    margin-top: 20px;
+}
+
+form {
+    background: #f2f2f2;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+textarea, input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button.submit-btn {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #343a40;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
